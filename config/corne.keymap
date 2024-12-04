@@ -23,7 +23,7 @@
 &kp LEFT_ALT    &kp Q  &kp W  &kp E           &kp R        &kp T        &kp Y    &kp U            &kp I         &kp O    &kp P     &kp ESCAPE
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D           &kp F        &kp G        &kp H    &kp J            &kp K         &kp L    &kp SEMI  &kp SQT
 &kp LCTRL       &kp Z  &kp X  &kp C           &kp V        &kp B        &kp N    &kp M            &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_ALT
-                              &lt 2 LEFT_WIN  &lt 1 SPACE  &lt 3 TAB    &kp RET  &lt 4 BACKSPACE  &lt 5 DELETE
+                              &lt 2 LEFT_WIN  &lt 1 SPACE  &lt 3 TAB    &kp RET  &lt 5 BACKSPACE  &lt 7 DELETE
             >;
         };
 
@@ -47,19 +47,37 @@
 
         num {
             bindings = <
-&none  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN   &kp SEMICOLON    &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT   &none
-&none  &kp KP_ENTER    &kp SPACE  &kp TAB       &kp BACKSPACE  &kp BACKSPACE    &kp SEMI   &kp N4  &kp N5  &kp N6  &kp EQUAL  &none
-&none  &none           &none      &none         &none          &none            &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp BSLH   &none
-                                  &none         &none          &none            &none      &none   &none
+&none  &kp LEFT_WIN          &kp LEFT_ALT      &kp LCTRL          &kp LEFT_SHIFT         &kp SEMICOLON    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp COLON  &kp PERCENT   &none
+&none  &kp KP_ENTER          &kp SPACE         &kp TAB            &kp BACKSPACE          &kp PERIOD       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &kp PLUS      &none
+&none  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp ASTERISK  &none
+                                               &none              &none                  &none            &none         &none         &kp NUMBER_0
+            >;
+        };
+
+        shiftNum {
+            bindings = <
+&none  &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp SEMICOLON    &kp TILDE   &kp CARET             &kp HASH          &kp DOLLAR         &kp EXCLAMATION        &kp PIPE
+&none  &kp KP_ENTER  &kp SPACE     &kp TAB    &kp BACKSPACE   &kp PERIOD       &kp EQUAL   &kp LESS_THAN         &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp GREATER_THAN       &kp AT_SIGN
+&none  &none         &none         &none      &none           &kp SLASH        &kp PERIOD  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp COMMA
+                                   &none      &none           &none            &none       &none                 &none
             >;
         };
 
         sym {
             bindings = <
-&kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION    &kp PERCENT  &kp GRAVE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COMMA
-&kp HASH         &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK    &none        &kp BACKSPACE  &kp TAB               &kp SPACE              &kp KP_ENTER   &none
-&kp TILDE        &kp LESS_THAN   &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp SLASH       &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS       &kp BACKSLASH
-                                            &none              &none             &none           &none        &none          &none
+&kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION    &kp SEMICOLON  &lt 6 LEFT_SHIFT      &kp LCTRL         &kp LEFT_ALT       &kp LEFT_WIN           &none
+&kp HASH         &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK    &kp PERIOD     &kp BACKSPACE         &kp TAB           &kp SPACE          &kp KP_ENTER           &none
+&kp TILDE        &kp LESS_THAN   &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp SLASH       &kp SLASH      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &none
+                                            &none              &none             &none           &none          &none                 &none
+            >;
+        };
+
+        shiftSym {
+            bindings = <
+&kp PERCENT  &kp GRAVE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COMMA        &kp SEMICOLON  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &none
+&none        &none          &none                 &none                  &none          &none            &kp PERIOD     &kp BACKSPACE   &kp TAB    &kp SPACE     &kp KP_ENTER  &none
+&kp AT_SIGN  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS       &kp BACKSLASH    &kp SLASH      &none           &none      &none         &none         &none
+                                                  &none                  &none          &none            &none          &none           &none
             >;
         };
 
