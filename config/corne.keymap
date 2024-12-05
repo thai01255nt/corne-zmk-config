@@ -68,7 +68,7 @@
 &kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION    &kp SEMICOLON  &mo 6                 &kp LCTRL         &kp LEFT_ALT       &kp LEFT_WIN           &none
 &kp HASH         &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK    &kp PERIOD     &kp BACKSPACE         &kp TAB           &kp SPACE          &kp KP_ENTER           &none
 &kp TILDE        &kp LESS_THAN   &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp SLASH       &kp SLASH      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &none
-                                            &none              &none             &none           &none          &none                 &none
+                                            &none              &kp COLON         &none           &none          &none                 &none
             >;
         };
 
@@ -77,16 +77,16 @@
 &kp PERCENT  &kp GRAVE      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COMMA        &kp SEMICOLON  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &none
 &none        &none          &none                 &none                  &none          &none            &kp PERIOD     &kp BACKSPACE   &kp TAB    &kp SPACE     &kp KP_ENTER  &none
 &kp AT_SIGN  &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PLUS       &kp BACKSLASH    &kp SLASH      &none           &none      &none         &none         &none
-                                                  &none                  &none          &none            &none          &none           &none
+                                                  &none                  &kp COLON      &none            &none          &none           &none
             >;
         };
 
         func {
             bindings = <
-&none  &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &none  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN  &none
-&none  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &none  &none           &none      &none         &none         &none
-&none  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &none  &none           &none      &none         &none         &none
-                        &none   &none   &none              &none  &none           &none
+&none  &kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN    &none  &none  &none  &none  &none  &none
+&none  &kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK     &none  &none  &none  &none  &none  &none
+&none  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK    &none  &none  &none  &none  &none  &none
+                        &none   &none   &none              &none  &none  &none
             >;
         };
     };
