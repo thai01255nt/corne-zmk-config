@@ -38,17 +38,17 @@
 
         media {
             bindings = <
-&bt BT_CLR_ALL  &none         &kp K_STOP    &kp PAUSE_BREAK  &kp K_MUTE       &none           &none           &kp K_MUTE    &kp PAUSE_BREAK  &kp K_STOP    &none         &bt BT_CLR_ALL
-&none           &none         &kp K_PREV    &kp C_VOL_DN     &kp C_VOLUME_UP  &kp C_NEXT      &kp C_PREVIOUS  &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_NEXT    &none         &none
-&bt BT_CLR      &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2     &bt BT_SEL 1     &bt BT_SEL 0    &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-                                            &none            &none            &none           &none           &none         &none
+&bt BT_CLR_ALL  &none         &kp K_STOP    &kp K_PLAY_PAUSE  &kp K_MUTE       &none           &none           &kp K_MUTE    &kp K_PLAY_PAUSE  &kp K_STOP    &none         &bt BT_CLR_ALL
+&none           &none         &kp K_PREV    &kp C_VOL_DN      &kp C_VOLUME_UP  &kp C_NEXT      &kp C_PREVIOUS  &kp C_VOL_DN  &kp C_VOLUME_UP   &kp C_NEXT    &none         &none
+&bt BT_CLR      &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2      &bt BT_SEL 1     &bt BT_SEL 0    &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+                                            &none             &none            &none           &none           &none         &none
             >;
         };
 
         num {
             bindings = <
-&none  &kp LEFT_WIN          &kp LEFT_ALT      &kp LCTRL          &mo 4                  &kp SEMICOLON    &kp COLON  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT   &none
-&none  &kp KP_ENTER          &kp SPACE         &kp TAB            &kp BACKSPACE          &kp PERIOD       &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &none
+&none  &kp LEFT_WIN          &kp LEFT_ALT      &kp LCTRL          &kp LEFT_SHIFT         &kp SEMICOLON    &kp COLON  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERCENT   &none
+&mo 4  &kp KP_ENTER          &kp SPACE         &kp TAB            &kp BACKSPACE          &kp PERIOD       &kp MINUS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS      &none
 &none  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp SLASH        &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &none
                                                &none              &none                  &none            &none      &none         &kp NUMBER_0
             >;
@@ -65,8 +65,8 @@
 
         sym {
             bindings = <
-&kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION    &kp SEMICOLON  &mo 6                 &kp LCTRL         &kp LEFT_ALT       &kp LEFT_WIN           &none
-&kp HASH         &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK    &kp PERIOD     &kp BACKSPACE         &kp TAB           &kp SPACE          &kp KP_ENTER           &none
+&kp EXCLAMATION  &kp LEFT_BRACE  &kp SQT    &kp DOUBLE_QUOTES  &kp RIGHT_BRACE   &kp QUESTION    &kp SEMICOLON  &kp LEFT_SHIFT        &kp LCTRL         &kp LEFT_ALT       &kp LEFT_WIN           &none
+&kp HASH         &kp CARET       &kp EQUAL  &kp UNDERSCORE     &kp DOLLAR        &kp ASTERISK    &kp PERIOD     &kp BACKSPACE         &kp TAB           &kp SPACE          &kp KP_ENTER           &mo 6
 &kp TILDE        &kp LESS_THAN   &kp PIPE   &kp MINUS          &kp GREATER_THAN  &kp SLASH       &kp SLASH      &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &none
                                             &none              &kp COLON         &none           &none          &none                 &none
             >;
